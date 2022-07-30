@@ -1,0 +1,1 @@
+$("#about").attr("class", "sidebar-listItem active")

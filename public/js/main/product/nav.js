@@ -1,0 +1,1 @@
+$("#product").attr("class", "sidebar-listItem active")

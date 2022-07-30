@@ -1,0 +1,16 @@
+<?php
+
+    function render($directory, $view_file, $data = array()) {
+
+        $view = "views/admin/" . $directory . '/' . $view_file . '.php';
+        
+        if(file_exists($view)) {
+            extract($data);
+            require_once($view);
+        } else {
+            header('Location: http://localhost/checkass_Web/error/error_page/error');
+        }
+
+    }
+
+?>

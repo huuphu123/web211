@@ -1,0 +1,1 @@
+$("#cart").attr("class", "sidebar-listItem active")
